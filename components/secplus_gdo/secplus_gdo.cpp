@@ -139,8 +139,8 @@ void GDOComponent::setup() {
       .invert_uart = true,
       .uart_tx_pin = (gpio_num_t)GDO_UART_TX_PIN,
       .uart_rx_pin = (gpio_num_t)GDO_UART_RX_PIN,
-      // .rf_tx_pin = (gpio_num_t)-1,
-      // .rf_rx_pin = (gpio_num_t)-1,
+      .rf_tx_pin = (gpio_num_t)-1,
+      .rf_rx_pin = (gpio_num_t)-1,
       .obst_in_pin = (gpio_num_t)-1,
   };
 
